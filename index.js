@@ -49,7 +49,7 @@ app.get("/vehicles", (req, res) => {
         volumetotal: 145760,
         connected: 70000,
         softwareUpdates: 27550,
-        img: "http://localhost:3001/img/ranger.png",
+        img: "https://api-czja.onrender.com/img/ranger.png",
         preco: "R$ 244.990",
         motor: "2.0 Diesel, 4 cilindros, 16 válvulas",
         potencia: "170 cv a 3.500 rpm",
@@ -61,7 +61,7 @@ app.get("/vehicles", (req, res) => {
         volumetotal: 1500,
         connected: 500,
         softwareUpdates: 750,
-        img: "http://localhost:3001/img/mustang.png",
+        img: "https://api-czja.onrender.com/img/mustang.png",
         preco: "R$ 529.000",
         motor: "5.0 V8 a gasolina",
         potencia: "488 cv",
@@ -74,7 +74,7 @@ app.get("/vehicles", (req, res) => {
         volumetotal: 4560,
         connected: 4000,
         softwareUpdates: 3050,
-        img: "http://localhost:3001/img/territory.png",
+        img: "https://api-czja.onrender.com/img/territory.png",
         preco: "R$ 212.000",
         motor: "1.5 Turbo a gasolina",
         potencia: "169 cv a 5.500 rpm",
@@ -86,7 +86,7 @@ app.get("/vehicles", (req, res) => {
         volumetotal: 7560,
         connected: 4060,
         softwareUpdates: 2050,
-        img: "http://localhost:3001/img/broncoSport.png",
+        img: "https://api-czja.onrender.com/img/broncoSport.png",
         preco: "R$ 256.900",
         motor: "2.0 Turbo a gasolina",
         potencia: "240 cv a 5.500 rpm",
@@ -186,37 +186,37 @@ app.get("/carousel", (req, res) => {
         id: 1,
         titulo: "Nova Ranger 2025",
         descricao: "Potência e inovação em cada curva.",
-        img: "http://localhost:3001/img/ranger.png",
+        img: "https://api-czja.onrender.com/img/ranger.png",
       },
       {
         id: 2,
         titulo: "Mustang GT",
         descricao: "Desempenho e elegância que impressionam.",
-        img: "http://localhost:3001/img/mustang.png",
+        img: "https://api-czja.onrender.com/img/mustang.png",
       },
       {
         id: 3,
         titulo: "Territory 2025",
         descricao: "Tecnologia, conforto e segurança para a família.",
-        img: "http://localhost:3001/img/territory.png",
+        img: "https://api-czja.onrender.com/img/territory.png",
       },
       {
         id: 4,
         titulo: "Bronco Sport",
         descricao: "Aventure-se com estilo e força.",
-        img: "http://localhost:3001/img/broncoSport.png",
+        img: "https://api-czja.onrender.com/img/broncoSport.png",
       },
       {
         id: 5,
         titulo: "Ranger",
         descricao: "Aventure-se com estilo e força.",
-        img: "http://localhost:3001/img/imagem_1.png",
+        img: "https://api-czja.onrender.com/img/imagem_1.png",
       },
       {
         id: 6,
         titulo: "Bronco Vermelho",
         descricao: "Aventure-se com estilo e força.",
-        img: "http://localhost:3001/img/imagem_3.png",
+        img: "https://api-czja.onrender.com/img/imagem_3.png",
       },
     ];
 
@@ -240,7 +240,7 @@ app.get("/vehicleSpecs", (req, res) => {
         motor: "2.0 Diesel, 4 cilindros, 16 válvulas",
         potencia: "170 cv a 3.500 rpm",
         roda: "Aço 16, pneus 255/70 R16",
-        img: "http://localhost:3001/img/ranger.png"
+        img: "https://api-czja.onrender.com/img/ranger.png"
       },
       {
         id: 2,
@@ -251,7 +251,7 @@ app.get("/vehicleSpecs", (req, res) => {
         motor: "5.0 V8 a gasolina",
         potencia: "488 cv",
         roda: "Liga de alumínio, dianteiras 9J x 19, traseiras 9,5J x 19",
-        img: "http://localhost:3001/img/mustang.png"
+        img: "https://api-czja.onrender.com/img/mustang.png"
       },
       {
         id: 3,
@@ -262,7 +262,7 @@ app.get("/vehicleSpecs", (req, res) => {
         motor: "1.5 Turbo a gasolina",
         potencia: "169 cv a 5.500 rpm",
         roda: "Liga leve 19, pneus 235/50 R19",
-        img: "http://localhost:3001/img/territory.png"
+        img: "https://api-czja.onrender.com/img/territory.png"
       },
       {
         id: 4,
@@ -273,7 +273,7 @@ app.get("/vehicleSpecs", (req, res) => {
         motor: "2.0 Turbo a gasolina",
         potencia: "240 cv a 5.500 rpm",
         roda: "Liga leve 17, pneus 225/65 R17",
-        img: "http://localhost:3001/img/broncoSport.png"
+        img: "https://api-czja.onrender.com/img/broncoSport.png"
       },
       {
         id: 5,
@@ -284,7 +284,7 @@ app.get("/vehicleSpecs", (req, res) => {
         motor: "2.5 Flex (álcool/gasolina)",
         potencia: "173 cv (álcool) / 168 cv (gasolina)",
         roda: "Liga leve aro 18, pneus 265/60 R18",
-        img: "http://localhost:3001/img/imagem_1.jpg"
+        img: "https://api-czja.onrender.com/img/imagem_1.jpg"
       },
       {
         id: 6,
@@ -295,7 +295,7 @@ app.get("/vehicleSpecs", (req, res) => {
         motor: "2.0 Turbo a gasolina",
         potencia: "240 cv a 5.500 rpm",
         roda: "Liga leve 17, pneus 225/65 R17",
-        img: "http://localhost:3001/img/imagem_3.jpg"
+        img: "https://api-czja.onrender.com/img/imagem_3.jpg"
       },
     ];
 
@@ -312,5 +312,5 @@ app.get("/vehicleSpecs", (req, res) => {
 
 
 app.listen(3001, () => {
-  console.log("API running on http://localhost:3001/");
+  console.log("API running on https://api-czja.onrender.com/");
 });
