@@ -20,7 +20,7 @@ app.post("/login", async (req, res) => {
       });
     }
 
-    if (nome !== "Hugo" || senha !== "123456") {
+    if (nome !== "admin" || senha !== "123456") {
       return res.status(401).json({
         message:
           "O nome de usuário ou senha está incorreto ou não foi cadastrado!",
@@ -29,8 +29,8 @@ app.post("/login", async (req, res) => {
 
     return res.status(200).json({
       id: 1,
-      nome: "Hugo",
-      email: "Hugo@email.com",
+      nome: "admin",
+      email: "admin@email.com",
     });
   } catch (error) {
     return res.status(500).json({
@@ -274,28 +274,6 @@ app.get("/vehicleSpecs", (req, res) => {
         potencia: "240 cv a 5.500 rpm",
         roda: "Liga leve 17, pneus 225/65 R17",
         img: "https://api-czja.onrender.com/img/broncoSport.png"
-      },
-      {
-        id: 5,
-        nome: "Ford Ranger 2.5 CD Limited",
-        preco: "R$ 244.990",
-        alturaVeiculo: "1.848 mm",
-        alturaSolo: "232 mm",
-        motor: "2.5 Flex (álcool/gasolina)",
-        potencia: "173 cv (álcool) / 168 cv (gasolina)",
-        roda: "Liga leve aro 18, pneus 265/60 R18",
-        img: "https://api-czja.onrender.com/img/imagem_1.jpg"
-      },
-      {
-        id: 6,
-        nome: "Ford Bronco Vermelho (Wildtrak)",
-        preco: "R$ 256.900",
-        alturaVeiculo: "1.813 mm",
-        alturaSolo: "223 mm",
-        motor: "2.0 Turbo a gasolina",
-        potencia: "240 cv a 5.500 rpm",
-        roda: "Liga leve 17, pneus 225/65 R17",
-        img: "https://api-czja.onrender.com/img/imagem_3.jpg"
       },
     ];
 
