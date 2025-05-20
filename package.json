@@ -19,6 +19,7 @@
   "homepage": "https://github.com/hugofilipe177/Api#readme",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0"
   }
 }
