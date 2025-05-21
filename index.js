@@ -202,20 +202,20 @@ app.get("/carousel", (req, res) => {
       },
       {
         id: 4,
-        titulo: "Bronco Sport",
-        descricao: "Aventure-se com estilo e força.",
+        titulo: "Bronco Vermelho",
+        descricao: "Explore novos caminhos com robustez e atitude.",
         img: "https://api-czja.onrender.com/img/broncoSport.png",
       },
       {
         id: 5,
         titulo: "Ranger",
-        descricao: "Aventure-se com estilo e força.",
+        descricao: "Força e versatilidade para o trabalho e a aventura.",
         img: "https://api-czja.onrender.com/img/imagem_1.png",
       },
       {
         id: 6,
-        titulo: "Bronco Vermelho",
-        descricao: "Aventure-se com estilo e força.",
+        titulo: "Bronco Sport",
+        descricao: "Espírito off-road com conforto e tecnologia de ponta.",
         img: "https://api-czja.onrender.com/img/imagem_3.png",
       },
     ];
